@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Connect</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>College Connect</h1>
+    
+        <div class="buttons">
+            <button id="signupButton">Sign Up</button>
+           <button id="loginButton">Log In</button> 
+        </div>
+    </header>
+    
+
+    <div id="signupForm" style="display: none;"> 
+        
+        <input type="text" id="signupId" placeholder="Enter ID Number">
+        <input type="email" id="signupEmail" placeholder="Enter Email">
+        <input type="password" id="signupPassword" placeholder="Enter Password">
+        <input type="password" id="signupConfirmPassword" placeholder="Re-enter Password"><br> 
+        <button id="signupSubmit">Submit</button> 
+    </div>
+
+   <div class="centre">
+    <div id="loginForm" style="display: none;"> 
+   
+        <input type="text" id="loginId" placeholder="Enter ID Number/Email">
+        <input type="password" id="loginPassword" placeholder="Enter Password"><br>
+        <button id="loginSubmit">Login</button> 
+        <div class="input-field"> 
+            <input type="checkbox" id="check">
+            <label for="check">Remember me.</label>
+        </div>
+    </div>
+</div> 
+
+    <script src="script.js"></script>
+
+</body>
+</html>
